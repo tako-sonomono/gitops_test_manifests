@@ -6,7 +6,7 @@ spec:
   selector: #どのPodを起動するか
     matchLabels:
       app: nginx #テンプレートを指定
-  replicas: 2 #レプリカ数（Podの数）
+  replicas: 3 #レプリカ数（Podの数）
   template: #作成されるPodのテンプレート
     metadata:
       labels:
