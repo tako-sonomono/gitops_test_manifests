@@ -6,6 +6,6 @@ spec:
   type: NodePort
   ports:
     - port: 80
-      nodePort: 30000 #30000~32767の間で指定
+      nodePort: 30001 #30000~32767の間で指定
   selector: #下記のLabel（ラベル）を指定したPodに伝送
     app: nginx
